@@ -1,0 +1,40 @@
+.btn {
+  margin: 10px 0px 10px 10px;
+
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+  padding: 6px 15px;
+  border-radius: 10px 2px 2px 10px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  background-color: grey;
+  transition-property: background-color;
+  transition-timing-function: linear;
+  transition-duration: 100ms;
+  transform-origin: left;
+}
+
+.card {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.listLink {
+  padding: 20px;
+}
+.navLink {
+  padding: 5px;
+  margin-right: 20px;
+  color: slategrey;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.active {
+  color: black;
+  border-bottom: 1px solid black;
+}
